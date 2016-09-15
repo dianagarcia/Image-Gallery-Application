@@ -15,7 +15,6 @@ public class Application {
     @Bean
     CommandLineRunner init() {
 		return new CommandLineRunner() {
-			@Override
 			public void run(String... args) throws Exception {}
 	    };
     }
